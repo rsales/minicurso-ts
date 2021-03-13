@@ -1,6 +1,7 @@
 // Conjunto de dados para descrever a estutura de um objeto
 // Focado em 'objetos'
 interface Game {
+  id?: string | number;
   title: string;
   description: string;
   readonly genere: string;
@@ -9,6 +10,7 @@ interface Game {
 }
 
 const tlou: Game = {
+  id: 123,
   title: "The Last of Us",
   description: "The best game in the world",
   genere: "Acions",
