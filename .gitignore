@@ -1,1 +1,5 @@
+# Remove folder node_modules
+/node_modules
+
+# Remove file macOS
 .DS_STORE
